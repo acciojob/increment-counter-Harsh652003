@@ -2,7 +2,8 @@
 let count=0
 
 function increment() {
+	alert(count)
 	count++
-alert(count)
+
 	 document.getElementById('counter').innerText = count;
 }
